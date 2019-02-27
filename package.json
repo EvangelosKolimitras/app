@@ -4,7 +4,7 @@
   "description": "An application boilerplate",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "dev": "webpack ./src/js/index.js --mode=development --watch"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,5 @@
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
   },
-  "dependencies": {
-    "loadash": "^1.0.0"
-  }
+  "dependencies": {}
 }
