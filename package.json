@@ -4,7 +4,7 @@
   "description": "An application boilerplate",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode=development --watch"
+    "dev": "webpack --watch"
   },
   "repository": {
     "type": "git",

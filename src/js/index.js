@@ -1,9 +1,6 @@
 import '../css/style.css';
+import images from '../img/image3.jpg';
 
-let name = 'vaggelis';
-let last = 'kolimitras';
+let photo = document.querySelector('#photo');
 
-const full = join([name, last], ' ');
-
-console.log(full);
-
+photo.src = images;
