@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
@@ -9,18 +10,24 @@ module.exports = {
 	},
 	mode: 'development',
 
-	module : {
-		rules : [
-			{
-				test: /\.css$/ ,
-				use : [
+	plugins: [
+		new HtmlWebpackPlugin({
+			title: 'An amazing app',
+			template: './src/index.html'
+		})
+	],
+
+	module: {
+		rules: [{
+				test: /\.css$/,
+				use: [
 					'style-loader',
 					'css-loader'
 				]
 			},
 			{
 				test: /\.(png|jpe?g|svg|gif)$/i,
-				use : [
+				use: [
 					'file-loader',
 					{
 						loader: 'image-webpack-loader',
@@ -50,7 +57,7 @@ module.exports = {
 			},
 			{
 				test: /\.(woff|woff2|eot|ttf|otf)$/,
-				use : [
+				use: [
 					'file-loader'
 				]
 			}
