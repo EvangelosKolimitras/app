@@ -13,7 +13,7 @@
 ## Bundler
 
 1.	[x] [Webpack]()
-2.	[x] [Webpack-cli]()	
+2.	[x] [Webpack-cli]()
 
 ## Loaders
 
@@ -21,6 +21,11 @@
 2. [x] [Style-Loader]()
 3. [x] [File-Loader]()
 4. [x] [Image-File-Loader]()
+
+## Plugins
+
+1. [x] [clean-webpack-plugin]()
+2. [x] [html-webpack-plugin]()
 
 
 
