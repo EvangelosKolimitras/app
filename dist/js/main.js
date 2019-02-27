@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar urlEscape = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../img/image2.jpg */ \"./src/img/image2.jpg\"));\n\n// Module\nexports.push([module.i, \"body {\\n\\tmargin: 0;\\n\\tpadding: 0;\\n\\twidth: 100vw;\\n\\theight: 100vh;\\n\\tbox-sizing: border-box;\\n\\tbackground-color: rgb(20, 141, 111);\\n}\\n\\n#pic {\\n\\twidth: 50%;\\n\\theight: 100%;\\n\\tbackground-image:\\n\\t\\tlinear-gradient(rgba(168, 94, 94, 0.5),\\n\\t\\trgba(97, 6, 6, 0.5)),\\n\\t\\turl(\" + ___CSS_LOADER_URL___0___ + \");\\n\\tbackground-size: cover;\\n\\tbackground-position: center center;\\n}\\n\\n#photo {\\n\\tbackground-color: linear-gradient(rgba(168, 94, 94, 0.5),\\n\\trgba(26, 9, 9, 0.5));\\n\\tposition: absolute;\\n\\ttop: 0%;\\n\\tleft: 50%;\\n\\twidth: 50%;\\n\\theight: 100%;\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar urlEscape = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../fonts/Megrim.ttf */ \"./src/fonts/Megrim.ttf\"));\nvar ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(/*! ../img/image2.jpg */ \"./src/img/image2.jpg\"));\n\n// Module\nexports.push([module.i, \"@font-face {\\n\\tfont-family: 'meins';\\n\\tsrc: url(\" + ___CSS_LOADER_URL___0___ + \");\\n}\\n\\nhtml {\\n\\tfont-size: 65%;\\n}\\n\\nbody {\\n\\tmargin: 0;\\n\\tpadding: 0;\\n\\twidth: 100vw;\\n\\theight: 100vh;\\n\\tbox-sizing: border-box;\\n\\tbackground-color: rgb(20, 141, 111);\\n\\tfont-family: 'meins';\\n}\\n\\n.heading {\\n\\tposition: absolute;\\n\\ttop: 50%;\\n\\tleft: 50%;\\n\\tz-index: 200;\\n\\tletter-spacing: 1rem;\\n\\ttext-transform: uppercase;\\n\\ttransform: translate(-50%, -50%);\\n\\tcolor: rgba(168, 94, 94, 0.5);\\n\\tfont-size: 4rem;\\n\\ttext-shadow: 1rem 1rem 1rem rgba(51, 28, 28, 0.5);\\n\\n}\\n\\n#pic {\\n\\twidth: 50%;\\n\\theight: 100%;\\n\\tbackground-image:\\n\\t\\tlinear-gradient(rgba(168, 94, 94, 0.5),\\n\\t\\trgba(97, 6, 6, 0.5)),\\n\\t\\turl(\" + ___CSS_LOADER_URL___1___ + \");\\n\\tbackground-size: cover;\\n\\tbackground-position: center center;\\n}\\n\\n#photo {\\n\\tbackground-color: linear-gradient(rgba(168, 94, 94, 0.5),\\n\\t\\trgba(26, 9, 9, 0.5));\\n\\tposition: absolute;\\n\\ttop: 0%;\\n\\tleft: 50%;\\n\\twidth: 50%;\\n\\theight: 100%;\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -151,6 +151,17 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/style.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/style.css?");
+
+/***/ }),
+
+/***/ "./src/fonts/Megrim.ttf":
+/*!******************************!*\
+  !*** ./src/fonts/Megrim.ttf ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"dc8ea6d46c209819c518fb2b6dca1601.ttf\";\n\n//# sourceURL=webpack:///./src/fonts/Megrim.ttf?");
 
 /***/ }),
 
