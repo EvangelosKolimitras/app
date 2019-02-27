@@ -66,5 +66,13 @@ module.exports = {
 			}
 		]
 	},
-	devtool: 'eval-source-map'
+	devtool: 'eval-source-map',
+	devServer: {
+		contentBase: path.join(__dirname, 'dist'),
+		compress: false,
+		overlay: {
+			warnings: true,
+			errors: true
+		}
+	}
 };
