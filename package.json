@@ -1,0 +1,27 @@
+{
+  "name": "application_setup",
+  "version": "1.0.0",
+  "description": "An application boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvangelosKolimitras/app.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "es6",
+    "webpack",
+    "bundle",
+    "sass"
+  ],
+  "author": "Evangelos Kolimitras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvangelosKolimitras/app/issues"
+  },
+  "homepage": "https://github.com/EvangelosKolimitras/app#readme"
+}
