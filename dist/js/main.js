@@ -195,7 +195,19 @@ eval("module.exports = __webpack_require__.p + \"79158f364c64e79d9e14a76e7c2b2d6
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/style.css */ \"./src/css/style.css\");\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_image3_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/image3.jpg */ \"./src/img/image3.jpg\");\n/* harmony import */ var _img_image3_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_img_image3_jpg__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nlet photo = document.querySelector('#photo');\n\nphoto.src = _img_image3_jpg__WEBPACK_IMPORTED_MODULE_1___default.a;\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/style.css */ \"./src/css/style.css\");\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_style_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_image3_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/image3.jpg */ \"./src/img/image3.jpg\");\n/* harmony import */ var _img_image3_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_img_image3_jpg__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n\n\n\nlet photo = document.querySelector('#photo');\n\nphoto.src = _img_image3_jpg__WEBPACK_IMPORTED_MODULE_1___default.a;\n\n\nconst letit = _test__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\nletit();\n\n//# sourceURL=webpack:///./src/js/index.js?");
+
+/***/ }),
+
+/***/ "./src/js/test.js":
+/*!************************!*\
+  !*** ./src/js/test.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nconst number = function () {\n\tconst x = 2 + 2;\n\tconsole.log(x);\n\treturn x;\n}\n\nconst fn = number;\n/* harmony default export */ __webpack_exports__[\"default\"] = (fn);\n\n//# sourceURL=webpack:///./src/js/test.js?");
 
 /***/ }),
 
