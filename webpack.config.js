@@ -11,13 +11,13 @@ module.exports = {
 	mode: 'development',
 
 	plugins: [
+		new CleanWebpackPlugin([
+			'dist/*'
+		]),
 		new HtmlWebpackPlugin({
 			title: 'An amazing app',
 			template: './src/index.html'
-		}),
-		new CleanWebpackPlugin([
-			'dist/*'
-		])
+		})
 	],
 
 	module: {
@@ -65,5 +65,6 @@ module.exports = {
 				]
 			}
 		]
-	}
+	},
+	devtool: 'eval-source-map'
 };
