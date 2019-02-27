@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
 	entry: ['./src/js/index.js'],
@@ -17,7 +18,8 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			title: 'An amazing app',
 			template: './src/index.html'
-		})
+		}),
+		new webpack.HotModuleReplacementPlugin()
 	],
 
 	module: {
@@ -73,6 +75,7 @@ module.exports = {
 		overlay: {
 			warnings: true,
 			errors: true
-		}
+		},
+		hot: true
 	}
 };

@@ -1,8 +1,4 @@
-const number = function () {
-	const x = 2 + 2;
-	console.log(x);
-	return x;
+export default function number(a,v) {
+	const x = a + v;
+	console.log(x * 2);
 }
-
-const fn = number;
-export default fn;
